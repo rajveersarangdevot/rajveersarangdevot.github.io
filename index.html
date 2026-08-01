@@ -1,38 +1,487 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Rajveer Singh Sarangdevot | Data Analyst</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rajveer Singh Sarangdevot | Data Analyst Portfolio</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    color: white;
+    line-height: 1.6;
+
+}
+
+
+/* Navigation */
+
+nav {
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+    background:rgba(255,255,255,0.05);
+
+}
+
+
+nav h2 {
+
+    font-size:24px;
+
+}
+
+
+nav a {
+
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+
+}
+
+
+
+/* Hero Section */
+
+.hero {
+
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+
+}
+
+
+.profile-img {
+
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    margin-bottom:25px;
+
+}
+
+
+.hero h1 {
+
+    font-size:55px;
+    margin-bottom:10px;
+
+}
+
+
+.hero h3 {
+
+    font-size:25px;
+    font-weight:normal;
+    color:#cbd5e1;
+
+}
+
+
+.hero p {
+
+    max-width:700px;
+    margin:20px auto;
+    color:#e2e8f0;
+
+}
+
+
+
+.btn {
+
+    display:inline-block;
+    margin:10px;
+    padding:12px 25px;
+    border-radius:30px;
+    background:white;
+    color:#1e3a8a;
+    text-decoration:none;
+    font-weight:bold;
+
+}
+
+
+
+/* Sections */
+
+section {
+
+    padding:60px 10%;
+
+}
+
+
+.section-title {
+
+    text-align:center;
+    font-size:35px;
+    margin-bottom:40px;
+
+}
+
+
+
+/* Skills */
+
+.skills {
+
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+
+}
+
+
+.skill {
+
+    background:rgba(255,255,255,0.15);
+    padding:15px 25px;
+    border-radius:30px;
+
+}
+
+
+
+/* Projects */
+
+
+.projects {
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+
+}
+
+
+.card {
+
+    background:white;
+    color:#111827;
+    padding:25px;
+    border-radius:15px;
+    transition:0.3s;
+
+}
+
+
+.card:hover {
+
+    transform:translateY(-8px);
+
+}
+
+
+.card h3 {
+
+    color:#1e3a8a;
+    margin-bottom:10px;
+
+}
+
+
+.card a {
+
+    color:#1e3a8a;
+    font-weight:bold;
+    text-decoration:none;
+
+}
+
+
+
+/* Contact */
+
+.contact {
+
+    text-align:center;
+
+}
+
+
+
+footer {
+
+    text-align:center;
+    padding:20px;
+    background:rgba(0,0,0,0.2);
+
+}
+
+
+</style>
+
+
 </head>
+
+
 
 <body>
 
+
+<nav>
+
+<h2>Rajveer Singh Sarangdevot</h2>
+
+<div>
+
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+
+</div>
+
+</nav>
+
+
+
+
+<section class="hero">
+
+
+<div>
+
+
+<img src="profile.jpg" class="profile-img">
+
+
 <h1>Rajveer Singh Sarangdevot</h1>
 
-<h2>Data Analyst</h2>
+
+<h3>
+Data Analyst | Power BI | SQL | Business Analytics
+</h3>
+
 
 <p>
-Welcome to my analytics portfolio.
+
+Data Analyst with 5+ years of experience transforming business data into actionable insights using SQL, Power BI, Excel and analytics solutions.
+
 </p>
 
-<h3>Skills</h3>
 
-<ul>
-<li>SQL</li>
-<li>Power BI</li>
-<li>Excel</li>
-<li>Power Query</li>
-<li>DAX</li>
-</ul>
 
-<h3>Projects</h3>
-
-<ul>
-<li>
-<a href="sales-dashboard.html">
-Sales Performance Dashboard
+<a class="btn" href="#projects">
+View Projects
 </a>
-</li>
-</ul>
+
+
+<a class="btn" href="YOUR_RESUME_LINK">
+Download Resume
+</a>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section>
+
+
+<h2 class="section-title">
+Skills
+</h2>
+
+
+<div class="skills">
+
+
+<div class="skill">Power BI</div>
+
+<div class="skill">SQL</div>
+
+<div class="skill">Excel</div>
+
+<div class="skill">DAX</div>
+
+<div class="skill">Power Query</div>
+
+<div class="skill">Python</div>
+
+<div class="skill">Data Visualisation</div>
+
+<div class="skill">Business Analytics</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section id="projects">
+
+
+<h2 class="section-title">
+Featured Projects
+</h2>
+
+
+
+<div class="projects">
+
+
+
+<div class="card">
+
+<h3>
+Sales Performance Dashboard
+</h3>
+
+<p>
+
+Interactive Power BI dashboard analysing revenue, profit, products and regional performance.
+
+</p>
+
+<br>
+
+<a href="sales-dashboard.html">
+View Project →
+</a>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>
+Customer Analytics Dashboard
+</h3>
+
+<p>
+
+Customer segmentation, behaviour analysis and KPI tracking dashboard built using Power BI.
+
+</p>
+
+<br>
+
+<a href="#">
+View Project →
+</a>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>
+Supply Chain Analytics
+</h3>
+
+<p>
+
+Operational dashboard analysing delivery performance, delays and logistics KPIs.
+
+</p>
+
+<br>
+
+<a href="#">
+View Project →
+</a>
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="contact" class="contact">
+
+
+<h2 class="section-title">
+Let's Connect
+</h2>
+
+
+<p>
+
+Interested in analytics, BI and data-driven problem solving.
+
+</p>
+
+
+<br>
+
+
+<a class="btn" href="https://www.linkedin.com/in/rajveer-sarangdevot/">
+LinkedIn
+</a>
+
+
+<a class="btn" href="https://rajveersarangdevot.github.io/">
+GitHub
+</a>
+
+
+<a class="btn" href="mailto:rajveersarangdevot.1@gmail.com">
+Email
+</a>
+
+
+
+</section>
+
+
+
+
+
+<footer>
+
+© 2026 Rajveer Singh Sarangdevot | Data Analyst Portfolio
+
+</footer>
+
+
+
 
 </body>
 
